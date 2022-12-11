@@ -13,12 +13,12 @@
 </head>
 <header>
     <div class="menu-topo">
-        <a href="./index.html"> <img src="./img//img-logos/logofutreal.png" alt="digitalHouse"></a>
+        <a href="./index.php"> <img src="./img//img-logos/logofutreal.png" alt="digitalHouse"></a>
         <img src="./img/img/botaoTopo.png" alt="Icone menu" class="botao">
         <ul class="lista-menu">
-            <li class="home"><a href="./index.html">Home</a></li>
+            <li class="home"><a href="./index.php">Home</a></li>
             <li><a href="#rodape">Sobre nós</a></li>
-            <li><a href="./login.html">Login</a></li>
+            <li><a href="./login.php">Login</a></li>
         </ul>
     </div>
 </header>

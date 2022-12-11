@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="./style.css">
     
 
-    <title>FutReal | Login</title>
+    <title>FutReal | Novo Cadastro</title>
 </head>
     <header>
         <div class="menu-topo">
             <a href="./index.html"> <img src="./img//img-logos/logofutreal.png" alt="digitalHouse"></a>          
                 <img src="./img/img/botaoTopo.png" alt="Icone menu" class="botao">        
             <ul class="lista-menu">
-                <li class="home"><a href="./index.html">Home</a></li>
-                <li><a href="./index.html#rodape">Sobre nós</a></li>
-                <li><a href="./login.html">Login</a></li>
+                <li class="home"><a href="./index.php">Home</a></li>
+                <li><a href="./index.php#rodape">Sobre nós</a></li>
+                <li><a href="./login.php">Login</a></li>
             </ul>
         </div>
     </header>
@@ -29,18 +29,18 @@
             <div class="caixa-login">
                 <section class="area-login">
                     <img src="./img//img-logos/logofutreal.png" alt="Logo Digital House">              
-                    <form class="formulario-login">                   
+                    
+                    <form class="formulario-login" method="POST" action="./php/adicionarUsuarios.php">                   
                         
-                            <label for="email">email</label>
-                            <input type="email" id="email" required>
+                            <label for="email">Novo Nome</label>
+                            <input type="text" id="email" name="adicionarUsuario" value="">
                                         
-                            <label for="senha">senha</label>
-                            <input type="password"  id="senha" required>
+                            <label for="senha">Nova senha</label>
+                            <input type="password"  id="senha" required name="passwordUsuario" value="">
                                         
-                            <button type="submit" class="botao-entrar">Entrar</button>
-                            <a href="./novocadastro.html">Clique aqui para novo Cadastro</a>
-                            
-
+                            <button type="submit" class="botao-entrar">Cadastrar</button>
+                            <a href="./login.php">Voltar</a>
+                           
                     </form>
                 </section>
             </div>
