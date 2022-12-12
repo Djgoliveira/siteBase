@@ -3,10 +3,10 @@
 $conn = "";
    
 try {
-    $servername = "localhost:3307";
+    $servername = "localhost:3306";
     $dbname = "futreal_db";
     $username = "root";
-    $password = "";
+    $password = "root";
    
     $conn = new PDO(
         "mysql:host=$servername; dbname=futreal_db",

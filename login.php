@@ -29,13 +29,13 @@
             <div class="caixa-login">
                 <section class="area-login">
                     <img src="./img//img-logos/logofutreal.png" alt="Logo Digital House">              
-                    <form class="formulario-login" method="get" action="./php/verificarUsuarios.php">                   
+                    <form class="formulario-login" method="POST" action="./verificarUsuarios.php">                   
                                
                         <label for="text">Nome</label> 
-                        <input type="text" id="email">                           
+                        <input type="text" id="emails" name="adicionarUsuario" value="">                           
                         
                            <label for="email">senha</label>                      
-                           <input type="password"  id="senha" required>                         
+                           <input type="password"  id="senha" required name="passwordUsuario" value="">                         
                             
                                         
                             <button type="submit" class="botao-entrar">Entrar</button>
@@ -52,6 +52,36 @@
 
 <footer>
     <div id="rodape">
+    <div class="item-rodape">
+            <p class="nomes">Airton</p>
+            <p class="dev">Responsável pelo desenvolvimento do site</p>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/douglas-oliveira-86420372/">
+                    <img src="./img/img-logos/linked.png" class="linked" title="Linkedin Douglas Henrique">
+                </a>
+                <a href="https://github.com/Djgoliveira">
+                    <img src="./img/img-logos/gitHub.png" title="GitHub Douglas Henrique" alt="GitHub">
+                </a>
+                <div class="foto">
+                    <img src="./img/img-desenvolvedores/dh.jpg" alt="Douglas Henrique">
+                </div>
+            </div>
+    </div>
+    <div class="item-rodape">
+            <p class="nomes">Douglas Henrique F de Oliveira</p>
+            <p class="dev">Responsável pelo desenvolvimento do site</p>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/douglas-oliveira-86420372/">
+                    <img src="./img/img-logos/linked.png" class="linked" title="Linkedin Douglas Henrique">
+                </a>
+                <a href="https://github.com/Djgoliveira">
+                    <img src="./img/img-logos/gitHub.png" title="GitHub Douglas Henrique" alt="GitHub">
+                </a>
+                <div class="foto">
+                    <img src="./img/img-desenvolvedores/dh.jpg" alt="Douglas Henrique">
+                </div>
+            </div>
+        </div>
         <div class="item-rodape">
             <p class="nomes">Douglas Henrique F de Oliveira</p>
             <p class="dev">Responsável pelo desenvolvimento do site</p>
@@ -68,7 +98,7 @@
             </div>
         </div>
         <div class="item-rodape">
-            <p class="nomes">Nathan</p>
+            <p class="nomes">Nathan Soares</p>
             <p class="dev">Responsável pelo desenvolvimento do site</p>
             <div class="links">
                 <a href="https://www.linkedin.com/in/yago-2091b3172/">

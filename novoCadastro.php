@@ -30,7 +30,7 @@
                 <section class="area-login">
                     <img src="./img//img-logos/logofutreal.png" alt="Logo Digital House">              
                     
-                    <form class="formulario-login" method="POST" action="./php/adicionarUsuarios.php">                   
+                    <form class="formulario-login" method="POST" action="./adicionarUsuarios.php">                   
                         
                             <label for="email">Novo Nome</label>
                             <input type="text" id="email" name="adicionarUsuario" value="">

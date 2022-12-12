@@ -34,15 +34,12 @@
                             <source src="./videos/Taça Das Favelas.mp4" type="video/mp4">                            
                         </video>
                         </section>
-                    <h1 class="flix">Futebol Real</h1>
-                    <p>O site onde você monta seu Campeonato</p>                    
+                                
                 </div>
             </section>
         </article>  
     </div class="card-filme"> 
-    <div class="jogos" >
-        <img src="./img/img/tabeladetimes.png" alt="partidas">
-    </div>
+   
     <footer>
         <div id="rodape">
             <div class="item-rodape">
